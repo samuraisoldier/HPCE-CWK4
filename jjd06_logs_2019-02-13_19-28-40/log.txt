@@ -1,0 +1,38 @@
+
+hs2715, 0, Have scripts/create_n512.sh, FAIL
+hs2715, 1, Have scripts/run_n512_P1.sh, FAIL
+hs2715, 2, Have scripts/run_n512_P2.sh, FAIL
+hs2715, 3, Have scripts/run_n512_P4.sh, FAIL
+hs2715, 4, Have scripts/run_n512_P8.sh, FAIL
+hs2715, 5, Have scripts/run_n512_P16.sh, FAIL
+hs2715, 6, Have scripts/run_n512_P32.sh, FAIL
+hs2715, 7, Have results/pipeline_p_vs_bandwidth.pdf, FAIL
+hs2715, 8, Have results/dependency_sketch.pdf, FAIL
+hs2715, 9, Have results/output_dependency_cone.pdf, FAIL
+hs2715, 10, Have results/single_layer_ratio_vs_time.pdf, FAIL
+hs2715, 11, Have results/single_layer_n_vs_time.pdf, FAIL
+hs2715, 12, Have src/layers/par_for_naive*.cpp, FAIL
+hs2715, 13, Have src/layers/par_for_atomic*.cpp, FAIL
+hs2715, 14, Have src/layers/clustered*.cpp, FAIL
+hs2715, 15, Have src/layers/par_for_clustered*.cpp, FAIL
+hs2715, 16, Compiling bin/generate_sparse_layer, PASS
+hs2715, 17, Compiling bin/run_network, PASS
+hs2715, 18, Running scripts/create_n512.sh, FAIL
+hs2715, 19, Built w/n512_00.bin, FAIL
+hs2715, 20, Built w/n512_31.bin, FAIL
+hs2715, 21, Running reference version on all the n512 networks, FAIL
+hs2715, 22, Running p1 version on all the n512 networks, FAIL
+hs2715, 23, Check w/ref512.bin and w/n512_P1.bin are the same : Check p1 version against ref, PASS
+hs2715, 24, Running p8 version on all the n512 networks, FAIL
+hs2715, 25, Check w/ref512.bin and w/n512_P8.bin are the same : Check p8 version against ref, PASS
+hs2715, 26, For 1M input, check time for P1 (Command exited with non-zero status 127 0.00) is more than 1.6 x P2 (Command exited with non-zero status 127 0.00), FAIL
+hs2715, 27, For 1M input, check time for P1 (Command exited with non-zero status 127 0.00) is more than 2.5 x P4 (Command exited with non-zero status 127 0.00), FAIL
+hs2715, 28, For 1M input, check time for P1 (Command exited with non-zero status 127 0.00) is more than 4.5 x P8 (Command exited with non-zero status 127 0.00), FAIL
+hs2715, 29, For 1M input, check time for P1 (Command exited with non-zero status 127 0.00) is more than 7.0 x P16 (Command exited with non-zero status 127 0.00), FAIL
+hs2715, 30, For 1M input, check time for P1 (Command exited with non-zero status 127 0.00) is more than 10.0 x P32 (Command exited with non-zero status 127 0.00), FAIL
+hs2715, 31, Check w/n2048_ref.bin and w/n2048_naive.bin are different : Check simple version against par_for_naive (should be wrong), PASS
+hs2715, 32, Check w/n2048_ref.bin and w/n2048_atomic.bin are the same : Check simple version against par_for_atomic, FAIL
+hs2715, 33, Check w/n2048_ref.bin and w/n2048_clustered.bin are the same : Check simple version against clustered, FAIL
+hs2715, 34, Check w/n2048_ref.bin and w/n2048_par_for_clustered.bin are the same : Check simple version against par_for_clustered, FAIL
+
+Passed 5 out of 35 tests.
