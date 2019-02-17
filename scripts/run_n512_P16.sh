@@ -9,7 +9,7 @@ bin/run_network \
 	w/n512_06.bin w/n512_07.bin \
 | bin/run_network \
     w/n512_08.bin w/n512_09.bin \
-| bin/run_network \	
+| bin/run_network \
 	w/n512_10.bin w/n512_11.bin \
 | bin/run_network \
     w/n512_12.bin w/n512_13.bin \
