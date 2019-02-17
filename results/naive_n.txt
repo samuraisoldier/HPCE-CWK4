@@ -1,0 +1,60 @@
+ Loading layer 1 from file w/n_16_16.bin using engine par_for_naive
+
+real	0m0.935s
+user	0m13.288s
+sys	0m17.428s
+ Loading layer 1 from file w/n_32_32.bin using engine par_for_naive
+
+real	0m0.684s
+user	0m12.148s
+sys	0m11.452s
+ Loading layer 1 from file w/n_64_64.bin using engine par_for_naive
+
+real	0m0.513s
+user	0m10.352s
+sys	0m6.892s
+ Loading layer 1 from file w/n_128_128.bin using engine par_for_naive
+
+real	0m0.419s
+user	0m11.012s
+sys	0m3.352s
+ Loading layer 1 from file w/n_256_256.bin using engine par_for_naive
+
+real	0m0.446s
+user	0m12.688s
+sys	0m2.260s
+ Loading layer 1 from file w/n_512_512.bin using engine par_for_naive
+
+real	0m0.639s
+user	0m20.736s
+sys	0m1.476s
+ Loading layer 1 from file w/n_1024_1024.bin using engine par_for_naive
+
+real	0m0.961s
+user	0m33.152s
+sys	0m0.808s
+ Loading layer 1 from file w/n_2048_2048.bin using engine par_for_naive
+
+real	0m1.263s
+user	0m43.852s
+sys	0m0.512s
+ Loading layer 1 from file w/n_4096_4096.bin using engine par_for_naive
+
+real	0m1.864s
+user	1m5.440s
+sys	0m0.504s
+ Loading layer 1 from file w/n_8192_8192.bin using engine par_for_naive
+
+real	0m3.110s
+user	1m48.456s
+sys	0m0.140s
+ Loading layer 1 from file w/n_16384_16384.bin using engine par_for_naive
+
+real	0m4.895s
+user	2m45.504s
+sys	0m0.272s
+ Loading layer 1 from file w/n_32768_32768.bin using engine par_for_naive
+
+real	0m8.855s
+user	4m40.488s
+sys	0m0.868s
