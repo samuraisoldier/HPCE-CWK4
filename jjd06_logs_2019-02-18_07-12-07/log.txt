@@ -1,0 +1,38 @@
+
+hs2715, 0, Have scripts/create_n512.sh, PASS
+hs2715, 1, Have scripts/run_n512_P1.sh, PASS
+hs2715, 2, Have scripts/run_n512_P2.sh, PASS
+hs2715, 3, Have scripts/run_n512_P4.sh, PASS
+hs2715, 4, Have scripts/run_n512_P8.sh, PASS
+hs2715, 5, Have scripts/run_n512_P16.sh, PASS
+hs2715, 6, Have scripts/run_n512_P32.sh, PASS
+hs2715, 7, Have results/pipeline_p_vs_bandwidth.pdf, PASS
+hs2715, 8, Have results/dependency_sketch.pdf, PASS
+hs2715, 9, Have results/output_dependency_cone.pdf, PASS
+hs2715, 10, Have results/single_layer_ratio_vs_time.pdf, PASS
+hs2715, 11, Have results/single_layer_n_vs_time.pdf, PASS
+hs2715, 12, Have src/layers/par_for_naive*.cpp, PASS
+hs2715, 13, Have src/layers/par_for_atomic*.cpp, PASS
+hs2715, 14, Have src/layers/clustered*.cpp, PASS
+hs2715, 15, Have src/layers/par_for_clustered*.cpp, PASS
+hs2715, 16, Compiling bin/generate_sparse_layer, PASS
+hs2715, 17, Compiling bin/run_network, PASS
+hs2715, 18, Running scripts/create_n512.sh, PASS
+hs2715, 19, Built w/n512_00.bin, PASS
+hs2715, 20, Built w/n512_31.bin, PASS
+hs2715, 21, Running reference version on all the n512 networks, PASS
+hs2715, 22, Running p1 version on all the n512 networks, PASS
+hs2715, 23, Check w/ref512.bin and w/n512_P1.bin are the same : Check p1 version against ref, PASS
+hs2715, 24, Running p8 version on all the n512 networks, PASS
+hs2715, 25, Check w/ref512.bin and w/n512_P8.bin are the same : Check p8 version against ref, PASS
+hs2715, 26, For 1M input, check time for P1 (10.48) is more than 1.6 x P2 (5.31), PASS
+hs2715, 27, For 1M input, check time for P1 (10.48) is more than 2.5 x P4 (2.69), PASS
+hs2715, 28, For 1M input, check time for P1 (10.48) is more than 4.5 x P8 (1.59), PASS
+hs2715, 29, For 1M input, check time for P1 (10.48) is more than 7.0 x P16 (1.11), PASS
+hs2715, 30, For 1M input, check time for P1 (10.48) is more than 10.0 x P32 (0.58), PASS
+hs2715, 31, Check w/n2048_ref.bin and w/n2048_naive.bin are different : Check simple version against par_for_naive (should be wrong), PASS
+hs2715, 32, Check w/n2048_ref.bin and w/n2048_atomic.bin are the same : Check simple version against par_for_atomic, PASS
+hs2715, 33, Check w/n2048_ref.bin and w/n2048_clustered.bin are the same : Check simple version against clustered, PASS
+hs2715, 34, Check w/n2048_ref.bin and w/n2048_par_for_clustered.bin are the same : Check simple version against par_for_clustered, PASS
+
+Passed 35 out of 35 tests.

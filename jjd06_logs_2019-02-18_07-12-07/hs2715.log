@@ -1,0 +1,289 @@
+
+Cloning into 'hpce-2018-cw4-hs2715'...
+commit 07397d13054ce7499f6c45af756fa8d9146474f9
+Author: samuraisoldier <24753407+samuraisoldier@users.noreply.github.com>
+Date:   Sun Feb 17 13:16:01 2019 +0000
+
+    all done
+hs2715, 0, Have scripts/create_n512.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/create_n512.sh ./tmp/hs2715/working/scripts/create_n512.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/create_n512.sh to Unix format ...
+hs2715, 1, Have scripts/run_n512_P1.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P1.sh ./tmp/hs2715/working/scripts/run_n512_P1.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P1.sh to Unix format ...
+hs2715, 2, Have scripts/run_n512_P2.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P2.sh ./tmp/hs2715/working/scripts/run_n512_P2.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P2.sh to Unix format ...
+hs2715, 3, Have scripts/run_n512_P4.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P4.sh ./tmp/hs2715/working/scripts/run_n512_P4.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P4.sh to Unix format ...
+hs2715, 4, Have scripts/run_n512_P8.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P8.sh ./tmp/hs2715/working/scripts/run_n512_P8.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P8.sh to Unix format ...
+hs2715, 5, Have scripts/run_n512_P16.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P16.sh ./tmp/hs2715/working/scripts/run_n512_P16.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P16.sh to Unix format ...
+hs2715, 6, Have scripts/run_n512_P32.sh, PASS
+Makeing : ./tmp/hs2715/working/scripts in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/scripts/run_n512_P32.sh ./tmp/hs2715/working/scripts/run_n512_P32.sh
+dos2unix: converting file ./tmp/hs2715/working/scripts/run_n512_P32.sh to Unix format ...
+hs2715, 7, Have results/pipeline_p_vs_bandwidth.pdf, PASS
+Makeing : ./tmp/hs2715/working/results in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/results/pipeline_p_vs_bandwidth.pdf ./tmp/hs2715/working/results/pipeline_p_vs_bandwidth.pdf
+hs2715, 8, Have results/dependency_sketch.pdf, PASS
+Makeing : ./tmp/hs2715/working/results in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/results/dependency_sketch.pdf ./tmp/hs2715/working/results/dependency_sketch.pdf
+hs2715, 9, Have results/output_dependency_cone.pdf, PASS
+Makeing : ./tmp/hs2715/working/results in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/results/output_dependency_cone.pdf ./tmp/hs2715/working/results/output_dependency_cone.pdf
+hs2715, 10, Have results/single_layer_ratio_vs_time.pdf, PASS
+Makeing : ./tmp/hs2715/working/results in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/results/single_layer_ratio_vs_time.pdf ./tmp/hs2715/working/results/single_layer_ratio_vs_time.pdf
+hs2715, 11, Have results/single_layer_n_vs_time.pdf, PASS
+Makeing : ./tmp/hs2715/working/results in /home/ubuntu/hpce-2018-private/scripts/cw4
+cp ./tmp/hs2715/hpce-2018-cw4-hs2715/results/single_layer_n_vs_time.pdf ./tmp/hs2715/working/results/single_layer_n_vs_time.pdf
+hs2715, 12, Have src/layers/par_for_naive*.cpp, PASS
+dos2unix: converting file ./tmp/hs2715/working/src/layers/par_for_naive_layer.cpp to Unix format ...
+hs2715, 13, Have src/layers/par_for_atomic*.cpp, PASS
+dos2unix: converting file ./tmp/hs2715/working/src/layers/par_for_atomic.cpp to Unix format ...
+hs2715, 14, Have src/layers/clustered*.cpp, PASS
+dos2unix: converting file ./tmp/hs2715/working/src/layers/clustered_layer.cpp to Unix format ...
+hs2715, 15, Have src/layers/par_for_clustered*.cpp, PASS
+dos2unix: converting file ./tmp/hs2715/working/src/layers/par_for_clustered_layer.cpp to Unix format ...
+(cd ./tmp/hs2715/working && g++ -std=c++14 -O3 -W -Wall -g -I include src/util/layer_io.cpp src/tools/generate_sparse_layer.cpp -o bin/generate_sparse_layer -ltbb -lOpenCL) &> ./tmp/hs2715/log/build_generate_sparse_layer.log
+hs2715, 16, Compiling bin/generate_sparse_layer, PASS
+(cd ./tmp/hs2715/working && g++ -std=c++14 -O3 -W -Wall -g -I include src/util/layer_io.cpp src/tools/run_network.cpp src/layers/*.cpp -o bin/run_network -ltbb -lOpenCL) &> ./tmp/hs2715/log/build_run_network.log
+hs2715, 17, Compiling bin/run_network, PASS
+(cd ./tmp/hs2715/working && scripts/create_n512.sh) &> ./tmp/hs2715/log/run_create_n512.log
+hs2715, 18, Running scripts/create_n512.sh, PASS
+hs2715, 19, Built w/n512_00.bin, PASS
+hs2715, 20, Built w/n512_31.bin, PASS
+(cd ./tmp/hs2715/working && ( cat w/random512.bin | bin/run_network w/n512_00.bin w/n512_01.bin w/n512_02.bin w/n512_03.bin w/n512_04.bin w/n512_05.bin w/n512_06.bin w/n512_07.bin w/n512_08.bin w/n512_09.bin w/n512_10.bin w/n512_11.bin w/n512_12.bin w/n512_13.bin w/n512_14.bin w/n512_15.bin w/n512_16.bin w/n512_17.bin w/n512_18.bin w/n512_19.bin w/n512_20.bin w/n512_21.bin w/n512_22.bin w/n512_23.bin w/n512_24.bin w/n512_25.bin w/n512_26.bin w/n512_27.bin w/n512_28.bin w/n512_29.bin w/n512_30.bin w/n512_31.bin > w/ref512.bin )) &> ./tmp/hs2715/log/run_reference.log
+hs2715, 21, Running reference version on all the n512 networks, PASS
+(cd ./tmp/hs2715/working && ( cat w/random512.bin | scripts/run_n512_P1.sh > w/n512_P1.bin )) &> ./tmp/hs2715/log/run_n512_P1.log
+hs2715, 22, Running p1 version on all the n512 networks, PASS
+hs2715, 23, Check w/ref512.bin and w/n512_P1.bin are the same : Check p1 version against ref, PASS
+(cd ./tmp/hs2715/working && ( cat w/random512.bin | scripts/run_n512_P8.sh > w/n512_P8.bin )) &> ./tmp/hs2715/log/run_n512_P8.log
+hs2715, 24, Running p8 version on all the n512 networks, PASS
+hs2715, 25, Check w/ref512.bin and w/n512_P8.bin are the same : Check p8 version against ref, PASS
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 2 from file w/n512_01.bin using engine auto
+ Loading layer 3 from file w/n512_02.bin using engine auto
+ Loading layer 4 from file w/n512_03.bin using engine auto
+ Loading layer 5 from file w/n512_04.bin using engine auto
+ Loading layer 6 from file w/n512_05.bin using engine auto
+ Loading layer 7 from file w/n512_06.bin using engine auto
+ Loading layer 8 from file w/n512_07.bin using engine auto
+ Loading layer 9 from file w/n512_08.bin using engine auto
+ Loading layer 10 from file w/n512_09.bin using engine auto
+ Loading layer 11 from file w/n512_10.bin using engine auto
+ Loading layer 12 from file w/n512_11.bin using engine auto
+ Loading layer 13 from file w/n512_12.bin using engine auto
+ Loading layer 14 from file w/n512_13.bin using engine auto
+ Loading layer 15 from file w/n512_14.bin using engine auto
+ Loading layer 16 from file w/n512_15.bin using engine auto
+ Loading layer 17 from file w/n512_16.bin using engine auto
+ Loading layer 18 from file w/n512_17.bin using engine auto
+ Loading layer 19 from file w/n512_18.bin using engine auto
+ Loading layer 20 from file w/n512_19.bin using engine auto
+ Loading layer 21 from file w/n512_20.bin using engine auto
+ Loading layer 22 from file w/n512_21.bin using engine auto
+ Loading layer 23 from file w/n512_22.bin using engine auto
+ Loading layer 24 from file w/n512_23.bin using engine auto
+ Loading layer 25 from file w/n512_24.bin using engine auto
+ Loading layer 26 from file w/n512_25.bin using engine auto
+ Loading layer 27 from file w/n512_26.bin using engine auto
+ Loading layer 28 from file w/n512_27.bin using engine auto
+ Loading layer 29 from file w/n512_28.bin using engine auto
+ Loading layer 30 from file w/n512_29.bin using engine auto
+ Loading layer 31 from file w/n512_30.bin using engine auto
+ Loading layer 32 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 2 from file w/n512_01.bin using engine auto
+ Loading layer 3 from file w/n512_02.bin using engine auto
+ Loading layer 4 from file w/n512_03.bin using engine auto
+ Loading layer 5 from file w/n512_04.bin using engine auto
+ Loading layer 6 from file w/n512_05.bin using engine auto
+ Loading layer 7 from file w/n512_06.bin using engine auto
+ Loading layer 8 from file w/n512_07.bin using engine auto
+ Loading layer 9 from file w/n512_08.bin using engine auto
+ Loading layer 10 from file w/n512_09.bin using engine auto
+ Loading layer 11 from file w/n512_10.bin using engine auto
+ Loading layer 12 from file w/n512_11.bin using engine auto
+ Loading layer 13 from file w/n512_12.bin using engine auto
+ Loading layer 1 from file w/n512_16.bin using engine auto
+ Loading layer 14 from file w/n512_13.bin using engine auto
+ Loading layer 15 from file w/n512_14.bin using engine auto
+ Loading layer 2 from file w/n512_17.bin using engine auto
+ Loading layer 16 from file w/n512_15.bin using engine auto
+ Loading layer 3 from file w/n512_18.bin using engine auto
+ Loading layer 4 from file w/n512_19.bin using engine auto
+ Loading layer 5 from file w/n512_20.bin using engine auto
+ Loading layer 6 from file w/n512_21.bin using engine auto
+ Loading layer 7 from file w/n512_22.bin using engine auto
+ Loading layer 8 from file w/n512_23.bin using engine auto
+ Loading layer 9 from file w/n512_24.bin using engine auto
+ Loading layer 10 from file w/n512_25.bin using engine auto
+ Loading layer 11 from file w/n512_26.bin using engine auto
+ Loading layer 12 from file w/n512_27.bin using engine auto
+ Loading layer 13 from file w/n512_28.bin using engine auto
+ Loading layer 14 from file w/n512_29.bin using engine auto
+ Loading layer 15 from file w/n512_30.bin using engine auto
+ Loading layer 16 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 1 from file w/n512_08.bin using engine auto
+ Loading layer 2 from file w/n512_01.bin using engine auto
+ Loading layer 2 from file w/n512_09.bin using engine auto
+ Loading layer 3 from file w/n512_02.bin using engine auto
+ Loading layer 3 from file w/n512_10.bin using engine auto
+ Loading layer 4 from file w/n512_03.bin using engine auto
+ Loading layer 4 from file w/n512_11.bin using engine auto
+ Loading layer 5 from file w/n512_04.bin using engine auto
+ Loading layer 5 from file w/n512_12.bin using engine auto
+ Loading layer 6 from file w/n512_05.bin using engine auto
+ Loading layer 6 from file w/n512_13.bin using engine auto
+ Loading layer 7 from file w/n512_06.bin using engine auto
+ Loading layer 7 from file w/n512_14.bin using engine auto
+ Loading layer 8 from file w/n512_07.bin using engine auto
+ Loading layer 8 from file w/n512_15.bin using engine auto
+ Loading layer 1 from file w/n512_16.bin using engine auto
+ Loading layer 2 from file w/n512_17.bin using engine auto
+ Loading layer 3 from file w/n512_18.bin using engine auto
+ Loading layer 4 from file w/n512_19.bin using engine auto
+ Loading layer 5 from file w/n512_20.bin using engine auto
+ Loading layer 6 from file w/n512_21.bin using engine auto
+ Loading layer 7 from file w/n512_22.bin using engine auto
+ Loading layer 8 from file w/n512_23.bin using engine auto
+ Loading layer 1 from file w/n512_24.bin using engine auto
+ Loading layer 2 from file w/n512_25.bin using engine auto
+ Loading layer 3 from file w/n512_26.bin using engine auto
+ Loading layer 4 from file w/n512_27.bin using engine auto
+ Loading layer 5 from file w/n512_28.bin using engine auto
+ Loading layer 6 from file w/n512_29.bin using engine auto
+ Loading layer 7 from file w/n512_30.bin using engine auto
+ Loading layer 8 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 1 from file w/n512_24.bin using engine auto
+ Loading layer 2 from file w/n512_01.bin using engine auto
+ Loading layer 2 from file w/n512_25.bin using engine auto
+ Loading layer 3 from file w/n512_02.bin using engine auto
+ Loading layer 1 from file w/n512_12.bin using engine auto
+ Loading layer 3 from file w/n512_26.bin using engine auto
+ Loading layer 4 from file w/n512_03.bin using engine auto
+ Loading layer 4 from file w/n512_27.bin using engine auto
+ Loading layer 2 from file w/n512_13.bin using engine auto
+ Loading layer 3 from file w/n512_14.bin using engine auto
+ Loading layer 4 from file w/n512_15.bin using engine auto
+ Loading layer 1 from file w/n512_28.bin using engine auto
+ Loading layer 2 from file w/n512_29.bin using engine auto
+ Loading layer 3 from file w/n512_30.bin using engine auto
+ Loading layer 4 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_20.bin using engine auto
+ Loading layer 2 from file w/n512_21.bin using engine auto
+ Loading layer 3 from file w/n512_22.bin using engine auto
+ Loading layer 1 from file w/n512_08.bin using engine auto
+ Loading layer 4 from file w/n512_23.bin using engine auto
+ Loading layer 1 from file w/n512_16.bin using engine auto
+ Loading layer 1 from file w/n512_04.bin using engine auto
+ Loading layer 2 from file w/n512_09.bin using engine auto
+ Loading layer 2 from file w/n512_17.bin using engine auto
+ Loading layer 2 from file w/n512_05.bin using engine auto
+ Loading layer 3 from file w/n512_10.bin using engine auto
+ Loading layer 3 from file w/n512_18.bin using engine auto
+ Loading layer 3 from file w/n512_06.bin using engine auto
+ Loading layer 4 from file w/n512_11.bin using engine auto
+ Loading layer 4 from file w/n512_19.bin using engine auto
+ Loading layer 4 from file w/n512_07.bin using engine auto
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 2 from file w/n512_01.bin using engine auto
+ Loading layer 1 from file w/n512_12.bin using engine auto
+ Loading layer 2 from file w/n512_13.bin using engine auto
+ Loading layer 1 from file w/n512_18.bin using engine auto
+ Loading layer 1 from file w/n512_20.bin using engine auto
+ Loading layer 2 from file w/n512_19.bin using engine auto
+ Loading layer 2 from file w/n512_21.bin using engine auto
+ Loading layer 1 from file w/n512_16.bin using engine auto
+ Loading layer 1 from file w/n512_22.bin using engine auto
+ Loading layer 2 from file w/n512_17.bin using engine auto
+ Loading layer 2 from file w/n512_23.bin using engine auto
+ Loading layer 1 from file w/n512_14.bin using engine auto
+ Loading layer 1 from file w/n512_24.bin using engine auto
+ Loading layer 2 from file w/n512_15.bin using engine auto
+ Loading layer 2 from file w/n512_25.bin using engine auto
+ Loading layer 1 from file w/n512_28.bin using engine auto
+ Loading layer 2 from file w/n512_29.bin using engine auto
+ Loading layer 1 from file w/n512_02.bin using engine auto
+ Loading layer 1 from file w/n512_08.bin using engine auto
+ Loading layer 1 from file w/n512_26.bin using engine auto
+ Loading layer 2 from file w/n512_03.bin using engine auto
+ Loading layer 1 from file w/n512_06.bin using engine auto
+ Loading layer 1 from file w/n512_10.bin using engine auto
+ Loading layer 2 from file w/n512_09.bin using engine auto
+ Loading layer 2 from file w/n512_27.bin using engine auto
+ Loading layer 2 from file w/n512_11.bin using engine auto
+ Loading layer 2 from file w/n512_07.bin using engine auto
+ Loading layer 1 from file w/n512_04.bin using engine auto
+ Loading layer 2 from file w/n512_05.bin using engine auto
+ Loading layer 1 from file w/n512_30.bin using engine auto
+ Loading layer 2 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_00.bin using engine auto
+ Loading layer 1 from file w/n512_01.bin using engine auto
+ Loading layer 1 from file w/n512_03.bin using engine auto
+ Loading layer 1 from file w/n512_04.bin using engine auto
+ Loading layer 1 from file w/n512_06.bin using engine auto
+ Loading layer 1 from file w/n512_07.bin using engine auto
+ Loading layer 1 from file w/n512_02.bin using engine auto
+ Loading layer 1 from file w/n512_31.bin using engine auto
+ Loading layer 1 from file w/n512_10.bin using engine auto
+ Loading layer 1 from file w/n512_13.bin using engine auto
+ Loading layer 1 from file w/n512_15.bin using engine auto
+ Loading layer 1 from file w/n512_12.bin using engine auto
+ Loading layer 1 from file w/n512_09.bin using engine auto
+ Loading layer 1 from file w/n512_08.bin using engine auto
+ Loading layer 1 from file w/n512_14.bin using engine auto
+ Loading layer 1 from file w/n512_27.bin using engine auto
+ Loading layer 1 from file w/n512_26.bin using engine auto
+ Loading layer 1 from file w/n512_18.bin using engine auto
+ Loading layer 1 from file w/n512_20.bin using engine auto
+ Loading layer 1 from file w/n512_11.bin using engine auto
+ Loading layer 1 from file w/n512_16.bin using engine auto
+ Loading layer 1 from file w/n512_17.bin using engine auto
+ Loading layer 1 from file w/n512_30.bin using engine auto
+ Loading layer 1 from file w/n512_19.bin using engine auto
+ Loading layer 1 from file w/n512_28.bin using engine auto
+ Loading layer 1 from file w/n512_29.bin using engine auto
+ Loading layer 1 from file w/n512_05.bin using engine auto
+ Loading layer 1 from file w/n512_21.bin using engine auto
+ Loading layer 1 from file w/n512_25.bin using engine auto
+ Loading layer 1 from file w/n512_23.bin using engine auto
+ Loading layer 1 from file w/n512_24.bin using engine auto
+ Loading layer 1 from file w/n512_22.bin using engine auto
+true
+hs2715, 26, For 1M input, check time for P1 (10.48) is more than 1.6 x P2 (5.31), PASS
+true
+hs2715, 27, For 1M input, check time for P1 (10.48) is more than 2.5 x P4 (2.69), PASS
+true
+hs2715, 28, For 1M input, check time for P1 (10.48) is more than 4.5 x P8 (1.59), PASS
+true
+hs2715, 29, For 1M input, check time for P1 (10.48) is more than 7.0 x P16 (1.11), PASS
+true
+hs2715, 30, For 1M input, check time for P1 (10.48) is more than 10.0 x P32 (0.58), PASS
+Warning : sparsity of more than > 0.25 may be slow to generate.
+ Loading layer 1 from file w/n2048.bin using engine simple
+ Loading layer 1 from file w/n2048.bin using engine par_for_naive
+Binary files w/n2048_ref.bin and w/n2048_naive.bin differ
+hs2715, 31, Check w/n2048_ref.bin and w/n2048_naive.bin are different : Check simple version against par_for_naive (should be wrong), PASS
+ Loading layer 1 from file w/n2048.bin using engine par_for_atomic
+hs2715, 32, Check w/n2048_ref.bin and w/n2048_atomic.bin are the same : Check simple version against par_for_atomic, PASS
+ Loading layer 1 from file w/n2048.bin using engine clustered
+hs2715, 33, Check w/n2048_ref.bin and w/n2048_clustered.bin are the same : Check simple version against clustered, PASS
+ Loading layer 1 from file w/n2048.bin using engine par_for_clustered
+hs2715, 34, Check w/n2048_ref.bin and w/n2048_par_for_clustered.bin are the same : Check simple version against par_for_clustered, PASS
+
+Passed 35 out of 35 tests.
